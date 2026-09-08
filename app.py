@@ -2,6 +2,7 @@ from flask import Flask,request,jsonify
 import joblib
 import numpy as np
 
+#model building
 model=joblib.load("iris_model.pkl")
 
 app=Flask(__name__)
